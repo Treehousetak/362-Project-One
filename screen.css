@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+2/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -34,14 +34,10 @@ h2 {
   margin-bottom: 29px;
 }
 #inputlist {
+  padding-top: 10em;
+  padding-bottom: 10em;
   background-color: white;
-}
-#right{
-  width: 61.8%;
-  height: 100%;
-}
-#left {
-  float: left;
-  background-color: black;
-  
+  position: absolute;
+  top: 60px; left: 60px;
+
 }
