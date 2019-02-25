@@ -17,6 +17,9 @@ body {
   line-height: 29px;
   max-width: 560px;
   margin: auto;
+  background-image: url('assets/images/picP.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   font-size: 76px; /*4.236em*/
@@ -29,4 +32,16 @@ h2 {
   line-height: 58px;
   margin-top: 29px;
   margin-bottom: 29px;
+}
+#inputlist {
+  background-color: white;
+}
+#right{
+  width: 61.8%;
+  height: 100%;
+}
+#left {
+  float: left;
+  background-color: black;
+  
 }
