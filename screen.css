@@ -15,8 +15,7 @@ html {
 body {
   font-size: 18px;
   line-height: 29px;
-  max-width: 560px;
-  margin: auto;
+  max-width: 61.8%;
   background-image: url('assets/images/picP.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +36,11 @@ h2 {
   padding-top: 10em;
   padding-bottom: 10em;
   background-color: white;
-  position: absolute;
-  top: 60px; left: 60px;
-
+  max-width: 38.2%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+#Signupform {
+  background-color: black;
 }
