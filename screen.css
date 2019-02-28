@@ -11,12 +11,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 18px; /*18px = 1.125em*/
   line-height: 29px; /* 20px = 1.25em */
+  font-family: 'Roboto Slab', serif;
+  color: white;
 }
 body {
   font-size: 18px;
   line-height: 29px;
-  max-width: 61.8%;
-  background-image: url('assets/images/picP.png');
+  background-image: url('assets/images/picM.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,15 +33,19 @@ h2 {
   margin-top: 29px;
   margin-bottom: 29px;
 }
+fieldset{
+  width: 20em;
+}
 #inputlist {
   padding-top: 10em;
   padding-bottom: 10em;
-  background-color: white;
+  background-color: #FEC189;
   max-width: 38.2%;
   margin: 0 auto;
-  display: flex;
-  flex-flow: column wrap;
 }
 #Signupform {
-  background-color: black;
+  max-width: 61.8%;
+  height: 100vh;
+  background-color: #FEC189;
+  margin: -0.5em -0.5em;
 }
