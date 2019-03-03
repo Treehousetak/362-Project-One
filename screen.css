@@ -17,6 +17,7 @@ html {
 body {
   font-size: 18px;
   line-height: 29px;
+  background-color: #004280;
   background-image: url('assets/images/picM.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,7 +68,7 @@ input[type="submit"]:disabled{
   max-width: 61.8%;
   height: 100vh;
   background-color: #FEC189;
-  margin: -0.5em -0.5em;
+  margin: -0.5em;
 }
 @media screen and (max-width: 800px){
 
@@ -106,8 +107,8 @@ input[type="submit"]:disabled{
   }
   #signupform {
     max-width: 100%;
-    margin: 1em 1em;
-    height: 92vh;
+    margin: 0em 1em;
+    height: 90.5vh;
   }
   #inputlist{
     max-width: 100%;
