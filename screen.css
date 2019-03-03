@@ -33,8 +33,31 @@ h2 {
   margin-top: 29px;
   margin-bottom: 29px;
 }
-fieldset{
-  width: 20em;
+input,
+label {
+  display: block;
+  box-sizing: border-box
+}
+input {
+  font-size: 18px;
+  padding: 18px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 29px;
+}
+input[type="text"] {
+  background-color: #fefc89 ;
+}
+input[type="submit"]{
+  background-color:#fd993d;
+}
+input[type="submit"]:disabled{
+  background-color: #ffe9d5;
+}
+input[type="submit"]:focus{
+  background-color: #ffe9d5;
 }
 #inputlist {
   padding-top: 10em;
@@ -43,7 +66,7 @@ fieldset{
   max-width: 38.2%;
   margin: 0 auto;
 }
-#Signupform {
+#signupform {
   max-width: 61.8%;
   height: 100vh;
   background-color: #FEC189;
