@@ -58,19 +58,53 @@ input[type="submit"]:disabled{
   background-color: #ffe9d5;
 }
 #inputlist {
-  padding-top: 10em;
+  padding-top: 5em;
   background-color: #FEC189;
   max-width: 38.2%;
   margin: 0 auto;
 }
 #signupform {
   max-width: 61.8%;
-  height: 105vh;
+  height: 100vh;
   background-color: #FEC189;
   margin: -0.5em;
 }
-@media screen and (max-width: 800px){
-
+@media screen and (max-width: 1300px){
+  h1{
+    font-size: 47px;
+    line-height: 58px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+  h2{
+    font-size: 29px;
+    line-height: 29px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    padding-left: 0px;
+  }
+  h3{
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 29px;
+    margin-bottom: 0px;
+  }
+  input {
+    width: 100%;
+  }
+  #signupform {
+    max-width: 61.8%;
+    margin: 0em 1em;
+    height: 100vh;
+    margin: -0.5em;
+  }
+  #inputlist{
+    font-size: 18px;
+    padding: 11.125px;
+    max-width: 61.8%;
+    padding-top: 5em;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 800px) {
   h1{
@@ -100,9 +134,6 @@ input[type="submit"]:disabled{
     width: 90%;
     margin-top: 0px;
     margin-bottom: 58px;
-  }
-  input[type="submit"]{
-    background-color:#fd993d;
   }
   #signupform {
     max-width: 100%;
