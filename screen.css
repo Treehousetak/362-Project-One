@@ -62,11 +62,10 @@ input[type="submit"]:disabled{
   background-color: #FEC189;
   max-width: 38.2%;
   margin: 0 auto;
-
 }
 #signupform {
   max-width: 61.8%;
-  height: 100.1vh;
+  height: 105vh;
   background-color: #FEC189;
   margin: -0.5em;
 }
