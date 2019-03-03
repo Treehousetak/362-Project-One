@@ -66,7 +66,7 @@ input[type="submit"]:disabled{
 }
 #signupform {
   max-width: 61.8%;
-  height: 100vh;
+  height: 100.1vh;
   background-color: #FEC189;
   margin: -0.5em;
 }
@@ -85,7 +85,7 @@ input[type="submit"]:disabled{
     line-height: 29px;
     margin-top: 29px;
     margin-bottom: 0px;
-    padding-left: 24px;
+    padding-left: 0px;
   }
   h3{
     font-size: 18px;
@@ -112,7 +112,7 @@ input[type="submit"]:disabled{
   }
   #inputlist{
     max-width: 100%;
-    padding: 0em;
+    padding: 0.5625em 0em 0em 0em;
     margin: 0 auto;
   }
 }
