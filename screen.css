@@ -48,7 +48,7 @@ input {
   margin-bottom: 29px;
 }
 input[type="text"] {
-  background-color: #fefc89 ;
+  background-color: #fefc89;
 }
 input[type="submit"]{
   background-color:#fd993d;
@@ -56,19 +56,62 @@ input[type="submit"]{
 input[type="submit"]:disabled{
   background-color: #ffe9d5;
 }
-input[type="submit"]:focus{
-  background-color: #ffe9d5;
-}
 #inputlist {
   padding-top: 10em;
-  padding-bottom: 10em;
   background-color: #FEC189;
   max-width: 38.2%;
   margin: 0 auto;
+
 }
 #signupform {
   max-width: 61.8%;
   height: 100vh;
   background-color: #FEC189;
   margin: -0.5em -0.5em;
+}
+@media screen and (max-width: 800px){
+
+}
+@media screen and (max-width: 800px) {
+  h1{
+    font-size: 47px;
+    line-height: 58px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+  h2{
+    font-size: 29px;
+    line-height: 29px;
+    margin-top: 29px;
+    margin-bottom: 0px;
+    padding-left: 24px;
+  }
+  h3{
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 29px;
+    margin-bottom: 0px;
+  }
+  input {
+    font-size: 18px;
+    padding: 11.125px;
+    border: 0;
+    outline: 0;
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 58px;
+  }
+  input[type="submit"]{
+    background-color:#fd993d;
+  }
+  #signupform {
+    max-width: 100%;
+    margin: 1em 1em;
+    height: 92vh;
+  }
+  #inputlist{
+    max-width: 100%;
+    padding: 0em;
+    margin: 0 auto;
+  }
 }
