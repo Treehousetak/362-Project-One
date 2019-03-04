@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 info_input2.addEventListener('keyup', function(){
   input2 = document.getElementById('username').value;
-  var username_valid = /^(?=.{4,15}$)[a-zA-Z0-9._]$/g;
+  var username_valid = /^[a-z0-9_-]{4,15}$/g;
   check1 = username_valid.test(input2);
   console.log(check1);
   if (check2 === true & check1 === true) {
