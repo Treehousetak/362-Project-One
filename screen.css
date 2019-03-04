@@ -9,13 +9,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Golden Ratio used, 1:1.618 */
 
 html {
-  font-size: 16px; /*18px = 1.125em*/
+  font-size: 16px; /*Setting base em */
   line-height: 26px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif, Helvetica, Arial, sans-serif;
   color: white;
 }
 body {
-  font-size: 1.125em;
+  font-size: 1.125em; /* 1.125em = 18px */
   line-height: 1.625em;
   background-color: #004280;
   background-image: url('assets/images/picM.png');
